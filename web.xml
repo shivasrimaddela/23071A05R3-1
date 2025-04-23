@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>DB</servlet-name>
+        <servlet-class>DB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DB</servlet-name>
+        <url-pattern>/DB</url-pattern>
+    </servlet-mapping>
+
+</web-app>
